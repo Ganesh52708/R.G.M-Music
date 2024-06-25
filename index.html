@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R.G.M - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <video autoplay muted loop id="background-video">
+        <source src="1video.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <nav>
+        <ul>
+            <li class="Brand"><img src="" alt="">R.G.M</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="song-list">
+            <h1>Best of NCS - no Copy Right sound</h1>
+        </div>
+
+        <div class="songItemcontainer">
+            <div class="song-item">
+                <img src="covers1.jpg" alt="1">
+                <span id="center"> Rim Jhim Yh Sawan</span>
+                <span class="songlistplay"></span> <span class="timestamp">03:47 <i id="1" class="fa songitem fa-circle-play"></i></span>
+            </div>
+            <div class="song-item">
+                <img src="covers2.jpg" alt="1">
+                <span > Mast Nazron se Allaha</span>
+                <span class="songlistplay"></span> <span class="timestamp">03:47 <i id="2" class="fa songitem fa-circle-play"></i></span>
+            </div>
+            <div class="song-item">
+                <img src="covers3.jpg" alt="1">
+                <span > Kuch Baatein Hai kahni </span>
+                <span class="songlistplay"></span> <span class="timestamp">03:47 <i id="3" class="fa songitem  fa-circle-play"></i></span>
+            </div>
+            <div class="song-item">
+                <img src="covers4.jpg" alt="1">
+                <span >Jab Main Badal Ban jau</span>
+                <span class="songlistplay"></span> <span class="timestamp">03:47 <i id="4" class="fa songitem fa-circle-play"></i></span>
+            </div>
+            <div class="song-item">
+                <img src="covers5.jpg" alt="1">
+                <span > Khushi Jab Bhi Teri Me</span>
+                <span class="songlistplay"></span> <span class="timestamp">03:47 <i id="5" class="fa songitem fa-circle-play"></i></span>
+            </div>
+            <div class="song-item">
+                <img src="covers6.jpg" alt="1">
+                <span >Shun Barsaat Ki Dhun </span>
+                <span class="songlistplay"></span> <span class="timestamp">03:47 <i id="6" class="fa songitem fa-circle-play"></i></span>
+            </div>
+            <div class="song-item">
+                <img src="covers7.jpg" alt="1">
+                <span >Ghar Se the chale tho</span>
+                <span class="songlistplay"></span> <span class="timestamp">03:47 <i id="7" class="fa songitem fa-circle-play"></i></span>
+            </div>
+            <div class="song-item">
+                <img src="covers8.jpg" alt="1">
+                <span > Pehle Baarish Main </span>
+                <span class="songlistplay"></span> <span class="timestamp">03:47 <i id="8" class="fa songitem fa-circle-play"></i></span>
+            </div>
+            <div class="song-item">
+                <img src="covers9.jpg" alt="1">
+                <span >Vasste Ja Bhi dhun</span>
+                <span class="songlistplay"></span> <span class="timestamp">03:47 <i id="9" class="fa songitem fa-circle-play"></i></span>
+            </div>
+            <!-- Additional song items... -->
+        </div>
+
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <div class="time-info">
+            <span id="current-time">00:00</span>
+            <input type="range" name="range" id="timebar" min="0" value="0" max="100">
+            <span id="duration-time">00:00</span>
+        </div>
+
+        <div class="icone">
+            <i class="fa-solid fa-2x fa-backward-step" id="Previous"></i>
+            <i class="fa-solid fa-2x fa-backward" id="rewind"></i>
+            <i class="fa-regular fa-2x fa-circle-play" id="masterplay"></i>
+            <i class="fa-solid fa-2x fa-forward" id="forward"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+        </div>
+
+        <div class="sound-controller">
+            <i class="fa-solid fa-volume-high" id="volume-icon"></i>
+            <input type="range" id="volume-bar" min="0" max="100" value="50">
+        </div>
+    
+
+        <!-- <div class="songinfo"> -->
+            <!-- <img src="GIF.gif" width="42px" alt="" id="gif"> -->
+        <!-- </div> -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
