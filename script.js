@@ -20,6 +20,10 @@ let songs = [
     { songName: "Mast Nazron se Allah Bachaye", filepath: "songs/7.mp3", coverPath: "covers/7.jpg" },
     { songName: "Pehle Baarish", filepath: "songs/8.mp3", coverPath: "covers/8.jpg" },
     { songName: "Vasste Ja Bhi dhun", filepath: "songs/9.mp3", coverPath: "covers/9.jpg" },
+    { songName: "Humnva mere tu hai", filepath: "songs/10.mp3", coverPath: "covers/10.jpg" },
+    { songName: "Barso re megh megh", filepath: "songs/11.mp3", coverPath: "covers/11.jpg" },
+    { songName: "Kabhi jo badal barse", filepath: "songs/12.mp3", coverPath: "covers/12.jpg" },
+    { songName: "Barsaat ke mausam me", filepath: "songs/13.mp3", coverPath: "covers/13.jpg" },
     // Other songs...
 ];
 
